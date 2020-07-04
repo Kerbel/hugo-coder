@@ -3,13 +3,15 @@
 {{ end }}
 {{ define "content" }}
   <section class="container list">
-    <h1 class="title"> {{ title (i18n (lower .Title)) | default .Title }} </h1>
+
+    <h1 class="title">
+      פוסטים
+    </h1>
     <ul>
       {{- range .Paginator.Pages -}}
         {{- .Render "li" -}}
       {{- end -}}
     </ul>
-
     {{ partial "pagination.html" . }}
   </section>
 {{ end }}

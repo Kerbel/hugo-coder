@@ -9,7 +9,7 @@ other = "סדרה"
 
 [reading_time]
 one = "פחות מדקה"
-other = "דקות {{ .Count }}"
+other = "בערך {{ .Count }} דקות"
 
 [page_not_found]
 other = "דף האינטרנט שביקשת לא נמצא"
@@ -22,4 +22,4 @@ other = " אתה יכול לחזור<a href=\"{{ . }}\">לדף הבית</a>."
 
 
 [powered_by]
-other = "מופעל על ידי"
+other = "מבוסס על"

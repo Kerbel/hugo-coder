@@ -2,7 +2,7 @@
   flex: 1;
   display: flex;
   margin-top: 1.6rem;
-  margin-bottom: 3.2rem;
+  margin-bottom: 0.2rem;
   article {
     header {
       margin-top: 6.4rem;
@@ -18,7 +18,7 @@
       }
     }
     footer {
-      margin-top: 4.0rem;
+      margin-top: 1.0rem;
       .see-also {
         margin: 3.2rem 0;
         h3 {
@@ -28,7 +28,7 @@
     }
     p {
       text-align: justify;
-      text-justify: auto;
+      textf-justify: auto;
       hyphens: auto;
     }
   }
