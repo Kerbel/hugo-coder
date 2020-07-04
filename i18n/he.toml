@@ -8,8 +8,8 @@ other = "תגית"
 other = "סדרה"
 
 [reading_time]
-one = "דקה אחת לקרוא"
-other = "דקות לקרוא {{ .Count }}"
+one = "פחות מדקה"
+other = "דקות {{ .Count }}"
 
 [page_not_found]
 other = "דף האינטרנט שביקשת לא נמצא"
